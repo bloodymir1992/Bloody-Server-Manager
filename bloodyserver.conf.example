@@ -1,0 +1,17 @@
+# Bloody Server Manager configuration
+
+SERVER_NAME="palworld-server"
+SERVER_LABEL="My Palworld Server"
+
+LOCAL_IP="192.168.1.100"
+PORT="8211"
+QUERY_PORT="27015"
+
+PALWORLD_ROOT="$HOME/PalworldServer"
+SAVE_DIR="$PALWORLD_ROOT/palworld/Pal/Saved/SaveGames/0"
+BACKUP_DIR="$PALWORLD_ROOT/backups"
+CONFIG_BACKUP_DIR="$PALWORLD_ROOT/config-backups"
+LOCAL_CONFIG="$PALWORLD_ROOT/palworld/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini"
+CONTAINER_CONFIG="/palworld/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini"
+
+DISCORD_WEBHOOK_FILE="$PALWORLD_ROOT/.discord-webhook"
