@@ -1,0 +1,16 @@
+# Local/private configuration
+bloodyserver.conf
+.discord-webhook
+*.env
+.env
+
+# Backups and generated files
+backups/
+config-backups/
+*.bak
+*.tmp
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
